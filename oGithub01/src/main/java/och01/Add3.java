@@ -29,7 +29,8 @@ public class Add3 extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		System.out.println("doGet 여기왔네");
+		System.out.println("이미Up 내용을 수정...");
+		
 		// Parameter 받기
 		int num = Integer.parseInt(request.getParameter("num"));
 		String loc = request.getParameter("loc");
